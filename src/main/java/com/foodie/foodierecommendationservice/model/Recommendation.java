@@ -16,6 +16,9 @@ public class Recommendation {
     private String[] interests;
     private List<Restuarent> restuarents;
 
+    public Recommendation() {
+    }
+
     public Recommendation(String username, String[] interests, List<Restuarent> restuarents) {
         this.username = username;
         this.interests = interests;
